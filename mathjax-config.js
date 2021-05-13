@@ -54,8 +54,4 @@ window.MathJax = {
         },
     },
     loader: {load: ['[tex]/physics']},
-    options: {
-        ignoreHtmlClass: ".*|",
-        processHtmlClass: "arithmatex",
-    },
 };
