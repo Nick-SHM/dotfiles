@@ -1,0 +1,12 @@
+{
+    "Commit template": {
+        "prefix": "co",
+        "body": [
+            "${1|build,ci,chore,docs,feat,fix,perf,refactor,revert,style,test|}(${2|mathjax|}): $3",
+            "",
+            "$0",
+            ""
+        ],
+        "description": "Conventional Commits"
+    }
+}
