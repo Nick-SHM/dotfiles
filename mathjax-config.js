@@ -4,7 +4,7 @@ window.MathJax = {
         displayMath: [["$$", "$$"]],
         processEscapes: true,
         processEnvironments: true,
-        packages: {'[+]': ['physics']},
+        packages: { "[+]": ["physics"] },
         macros: {
             C: "\\mathbb{C}",
             I: "\\mathbb{I}",
@@ -53,5 +53,5 @@ window.MathJax = {
             DD: "\\mathrm{D}",
         },
     },
-    loader: {load: ['[tex]/physics']},
+    loader: { load: ["[tex]/physics"] },
 };
