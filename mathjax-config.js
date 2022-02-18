@@ -16,13 +16,14 @@ window.MathJax = {
             e: "\\mathrm{e}",
             ii: "\\mathrm{i}",
 
-            eps: "\\varepsilon",
-            ph: "\\varphi",
-
             vv: ["\\vb*{#1}", 1],
             VV: ["\\vb{#1}", 1],
             mm: ["\\vb*{#1}", 1],
             MM: ["\\vb{#1}", 1],
+
+            // deprecated, but kept for compatibility
+            eps: "\\varepsilon",
+            ph: "\\varphi",
 
             opn: ["\\operatorname{#1}", 1],
 
@@ -42,14 +43,12 @@ window.MathJax = {
             qwhere: "\\qq{where}",
             Qwhere: "\\qq*{where}",
 
-            // Linear algebra
             Id: "\\vb{I}",
             trsp: "\\mathrm{T}",
             adj: "\\operatorname{adj}",
             diag: "\\operatorname{diag}",
             Span: "\\operatorname{span}",
 
-            // Analysis
             DD: "\\mathrm{D}",
         },
     },
