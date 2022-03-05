@@ -1,7 +1,13 @@
 window.MathJax = {
     tex: {
-        inlineMath: [["$", "$"]],
-        displayMath: [["$$", "$$"]],
+        inlineMath: [
+            ["$", "$"],
+            ["\\(", "\\)"],
+        ],
+        displayMath: [
+            ["$$", "$$"],
+            ["\\[", "\\]"],
+        ],
         processEscapes: true,
         processEnvironments: true,
         packages: { "[+]": ["physics"] },
@@ -54,3 +60,8 @@ window.MathJax = {
     },
     loader: { load: ["[tex]/physics"] },
 };
+
+// for instant loading in MkDocs
+document$.subscribe(() => {
+    MathJax.typesetPromise();
+});
