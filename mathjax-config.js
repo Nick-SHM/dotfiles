@@ -27,6 +27,8 @@ window.MathJax = {
             mm: ["\\vb*{#1}", 1],
             MM: ["\\vb{#1}", 1],
 
+            expt: "\\operatorname{\\mathbb{E}}",
+
             // deprecated, but kept for compatibility
             eps: "\\varepsilon",
             ph: "\\varphi",
