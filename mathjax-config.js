@@ -27,11 +27,11 @@ window.MathJax = {
             mm: ["\\vb*{#1}", 1],
             MM: ["\\vb{#1}", 1],
 
+            opn: ["\\operatorname{#1}", 1],
+
             // deprecated, but kept for compatibility
             eps: "\\varepsilon",
             ph: "\\varphi",
-
-            opn: ["\\operatorname{#1}", 1],
 
             id: "\\operatorname{Id}",
             sgn: "\\operatorname{sgn}",
